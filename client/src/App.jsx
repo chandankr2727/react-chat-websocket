@@ -1,6 +1,6 @@
 import { useState } from "react";
 import io from "socket.io-client";
-import Chat from "./components/Chat";
+import Chat from "./components/chat";
 
 const PORT = "3001";
 const SERVER_URL = `http://localhost:${PORT}`;
